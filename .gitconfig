@@ -13,6 +13,7 @@
 	caa = commit -a --amend -C HEAD
 	cm = commit -m
 	cma = commit -a -m
+	cmas = commit -a -s -m
 
 	r = reset
 	r1 = reset HEAD^
