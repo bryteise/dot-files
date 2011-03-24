@@ -1,0 +1,37 @@
+[user]
+	name = William Douglas
+	email = william.douglas@linux.intel.com
+
+[core]
+	gitproxy = none for intel.com
+	gitproxy = git-proxy
+[alias]
+	ai = add --interactive
+
+	c = commit
+	ca = commit --amend
+	caa = commit -a --amend -C HEAD
+	cm = commit -m
+	cma = commit -a -m
+
+	r = reset
+	r1 = reset HEAD^
+	r2 = reset HEAD^^
+	rh = reset --hard
+	rh1 = reset HEAD^ --hard
+	rh2 = reset HEAD^^ --hard
+
+	fp = format-patch
+	fp1 = format-patch HEAD^
+	fp2 = format-patch HEAD^^
+
+	ap = apply-patch
+
+	s = status
+	d = diff
+	a = add
+	co = checkout
+	b = branch
+	l = log
+	f = fetch
+	p = push

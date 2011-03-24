@@ -1,0 +1,48 @@
+# Sample minimal config file.  Copy this to ~/.offlineimaprc and edit to
+# suit to get started fast.
+
+[general]
+accounts = otc
+maxsyncaccounts = 2
+ui = Noninteractive.Basic, Noninteractive.Quiet
+
+[Account otc]
+localrepository = Localotc
+remoterepository = Remoteotc
+autorefresh = 5
+quick = 10
+#presynchook = presyncimap.sh
+postsynchook = postsyncimap.sh
+
+#[Account gmail]
+#localrepository = Localgmail
+#remoterepository = Remotegmail
+#autorefresh = 5
+#quick = 10
+#presynchook = presyncimap.sh
+#postsynchook = postsyncimap.sh
+#maxage = 5
+
+[Repository Localotc]
+type = Maildir
+localfolders = ~/.mail/otc
+sep = .
+
+[Repository Remoteotc]
+type = IMAP
+remotehost = linux.intel.com
+ssl = yes
+remoteport = 993
+remoteuser = william.douglas
+remotepassfile = ~/.pass/imap.otc
+
+#[Repository Localgmail]
+#type = Maildir
+#localfolders = ~/.mail/gmail
+#sep = .
+
+#[Repository Remotegmail]
+#type = Gmail
+#remoteuser = william.r.douglas@gmail.com
+#remotepassfile = ~/.pass/imap.gmail
+#realdelete = yes
