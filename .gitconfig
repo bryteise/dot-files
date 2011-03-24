@@ -27,11 +27,16 @@
 
 	ap = apply-patch
 
-	s = status
+	st = status
+	sh = show
 	d = diff
 	a = add
 	co = checkout
 	b = branch
 	l = log
 	f = fetch
-	p = push
+
+	ph = push
+	phom = push origin master
+	pl = pull
+	plom = pull origin master
