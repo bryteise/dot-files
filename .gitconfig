@@ -39,5 +39,7 @@
 
 	ph = push
 	phom = push origin master
+	phum = push upstream master
 	pl = pull
 	plom = pull origin master
+	plum = pull upstream master
