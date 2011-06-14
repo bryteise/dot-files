@@ -1,0 +1,15 @@
+alias auke "Auke Kok <auke-jan.h.kok@intel.com>"
+alias chrisl "Chris Leech <christopher.leech@intel.com>"
+alias chrisf "Chris Ferron <chris.e.ferron@intel.com>"
+alias patrick "Patrick McCarty <patrick.mccarty@intel.com>"
+
+alias arjan  "Arjan van de Ven <arjan@linux.intel.com>"
+alias alan "Alan Cox <alan@linux.intel.com>"
+alias kristen "Kristen Accardi <kristen.c.accardi@intel.com>"
+
+alias praj "Prajwal Mohan <prajwal.karur.mohan@intel.com>"
+alias ulf "Ulf Hofemeier <ulf.hofemeier@linux.intel.com>"
+
+alias myg auke chrisl chrisf patrick
+
+alias meegok "MeeGo-kernel <meego-kernel@lists.meego.com>"
