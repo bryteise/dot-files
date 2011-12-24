@@ -1,9 +1,9 @@
 [user]
 	name = William Douglas
-	email = william.douglas@linux.intel.com
+	email = william.douglas@intel.com
 
 [core]
-	gitproxy = none for intel.com
+	gitproxy = none for otcgit.jf.intel.com
 	gitproxy = git-proxy
 [alias]
 	ai = add --interactive
@@ -34,7 +34,7 @@
 	a = add
 	co = checkout
 	b = branch
-	cob = checkout -b
+	bco = checkout -b
 	l = log
 	f = fetch
 
