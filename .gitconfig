@@ -4,6 +4,7 @@
 
 [core]
 	gitproxy = none for otcgit.jf.intel.com
+	gitproxy = none for otc-android.intel.com
 	gitproxy = git-proxy
 [alias]
 	ai = add --interactive
@@ -15,6 +16,7 @@
 	cas = commit -a -s
 	cma = commit -a -m
 	cmas = commit -a -s -m
+	cdf = clean -df
 
 	r = reset
 	r1 = reset HEAD^
@@ -40,8 +42,18 @@
 	f = fetch
 
 	ph = push
+	pht = push --tags
 	phom = push origin master
+	phomt = push origin master --tags
 	phum = push upstream master
+	phumt = push upstream master --tags
 	pl = pull
+	plt = pull --tags
 	plom = pull origin master
+	plomt = pull origin master --tags
 	plum = pull upstream master
+	plumt = pull upstream master --tags
+
+	tc = !sh -c 'git rev-list $0 | head -n 1'
+[color]
+	ui = auto
